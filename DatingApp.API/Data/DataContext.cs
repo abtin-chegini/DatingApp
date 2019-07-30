@@ -11,6 +11,7 @@ public DataContext(DbContextOptions<DataContext> options) : base(options)
 }
 
 public DbSet<Values>  Value { get; set; }
+ public DbSet<User>  Users { get; set; }
 
 
     }
