@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import {HttpClientModule} from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
-import { ValueComponent } from './value/value.component';
+
 import { HttpClient } from 'selenium-webdriver/http';
 import { from } from 'rxjs';
 import { NavComponent } from './nav/nav.component';
@@ -14,7 +14,7 @@ import { RegisterComponent } from './register/register.component';
 @NgModule({
    declarations: [
       AppComponent,
-      ValueComponent,
+
       NavComponent,
       HomeComponent,
       RegisterComponent
